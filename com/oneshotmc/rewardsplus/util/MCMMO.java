@@ -40,7 +40,7 @@ public class MCMMO {
                 return deduction;
             }
         } else
-            deduction = ExperienceAPI.getLevel(player, "FISHING") * data.getChanceProf().getMining();
+            deduction = ExperienceAPI.getLevel(player, "FISHING") * data.getChanceProf().getFishing();
 
 
         return deduction;
