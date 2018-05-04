@@ -1,0 +1,47 @@
+messages:
+  prefix: "&a[Rewards] "
+  rewards-partially-dropped: "&cSome items were dropped onto the ground!"
+  rewards-dropped: "&cYour reward has been dropped onto the ground!"
+  reward: "&cYou found a {reward}"
+
+mcmmo:
+  enabled: false
+  chance-increase:
+  # per level
+    mining: 0.01
+    excavation: 0.01
+    farming: 0.015
+    woodcutting: 0.015
+    fishing: 0.015
+
+# 1.9 and above use: ENTITY_PLAYER_LEVELUP
+# https://jd.bukkit.org/org/bukkit/Sound.html == 1.7
+reward-sound: "LEVEL_UP"
+
+mining:
+  - STONE
+  - COAL_ORE
+  - IRON_ORE
+  - GOLD_ORE
+  - LAPIS_ORE
+  - REDSTONE_ORE
+  - DIAMOND_ORE
+  - QUARTZ_ORE
+  - NETHERRACK
+  - SANDSTONE
+farming:
+  - SUGAR_CANE_BLOCK
+  - CACTUS
+  - WHEAT
+  - SEEDS
+  - PUMPKIN_SEEDS
+  - MELON_SEEDS
+  - COCOA
+woodcutting:
+  - LOG
+  - LOG_2
+excavation:
+  - DIRT
+  - GRASS
+  - GRAVEL
+  - SAND

@@ -1,0 +1,46 @@
+name: RewardsPlus
+website: http://oneshotmc.com/
+author: JustCallMeHims
+version: 1.0.0
+description: plugin
+main: com.oneshotmc.rewardsplus.RewardsPlus
+commands:
+  rewardsplus:
+    aliases: [rplus, r+, rewards+]
+    description: index
+
+permissions:
+  rewardsplus.maincmd:
+    description: /rewardsplus
+  rewardsplus.deltier:
+    description: /rewardsplus deltier
+  rewardsplus.newreward:
+    description: /rewardsplus newreward
+  rewardsplus.newtier:
+    description: /rewardsplus newtier
+  rewardsplus.addcommand:
+    description: /rewardsplus addcommand
+  rewardsplus.setrewards:
+    description: /rewardsplus setrewards
+  rewardsplus.list:
+    description: /rewardsplus list
+  rewardsplus.settierchance:
+    description: /rewardsplus settierchances
+  rewardsplus.delreward:
+    description: /rewardsplus delreward
+  rewardsplus.setmsg:
+    description: /rewardsplus setmsg
+  rewardsplus.namereward:
+    description: /rewardsplus namereward
+  rewardsplus.admin:
+    description: inherits all
+    children:
+      rewardsplus.maincmd: true
+      rewardsplus.newreward: true
+      rewardsplus.newtier: true
+      rewardsplus.addcommand: true
+      rewardsplus.setrewards: true
+      rewardsplus.deltier: true
+      rewardsplus.settierchance: true
+      rewardsplus.namereward: true
+      rewardsplus.delreward: true
